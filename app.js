@@ -5,6 +5,8 @@ var outputDiv = document.querySelector("#output")
 
 
 
-btnTranslate.addEventListener("click", function clickEventHandler() {
+ function clickHandler() {
     outputDiv.innerText = "ajajsjajasjdjd" + txtInput.value
-})
+};
+
+btnTranslate.addEventListener("click", clickHandler);
