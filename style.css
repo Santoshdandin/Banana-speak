@@ -28,8 +28,7 @@ body{
    border-radius: 30px;
    border: 1px solid var(--secondary-color);
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(190, 62, 62, 0.19);
-   font-size: 25px
-   
+   font-size: 25px;
    
 }
 #output {
@@ -80,7 +79,7 @@ body{
     padding-bottom: 2rem;
     border-top-left-radius: 10rem;
     
-    background-color:#0369a1;
+    background-color:#054861;
     
     text-align: center;
 }
