@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+
+    /* --colorbanana --co */
+    --primary-color: #fbd85a;
+    --secondary-color: #375b7d;
+    --backgroung-color: #FFF1CC;
+
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    /* background-color: yellow; */
+    background-image: url("/img/img2.png");
+    
+}
+
+#txt-input {
+    width: 50%;
+    height: 15vh;
+    display: block;
+    margin: auto;
+    padding: 2rem;
+    background-color:#fef3c7;
+   border-radius: 30px;
+   border: 1px solid var(--secondary-color);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(190, 62, 62, 0.19);
+   font-size: 25px
+   
+   
+}
+#output {
+    width: 50%;
+    height: 15vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    background-color: #fef3c7;
+   border-radius: 30px;
+   border: 1px solid var(--secondary-color);
+   box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(15, 15, 15, 0.19);
+   font-size: 25px
+}
+
+.title {
+    color: 
+    white;
+    text-align: center;
+    margin: 2rem;
+    padding: 4rem;
+    font-size: 3rem;
+    }
+   
+    
+
+#btn-translate {
+
+    margin: 2rem;
+    padding: 10px;
+    border-radius: 1rem; box-shadow: 0 4px 8px 0 rgba(20, 20, 20, 0.2), 0 6px 20px 0 rgba(15, 15, 15, 0.19);
+    
+}
+
+.output-img {
+    max-width: 500px;
+    
+    margin: auto;
+    padding: 1rem ;
+    vertical-align:middle
+    
+}
+
+
+.style1 {
+    margin: auto;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    border-top-left-radius: 10rem;
+    
+    background-color:#0369a1;
+    
+    text-align: center;
+}
+
+.see-output {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #334155;
+    margin: 0;
+    vertical-align:middle
+   
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    box-sizing: border-boxss;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+
+
+
+
+
+
+/* CSS */
+.button-71 {
+  background-color: #374151;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
